@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1vw;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    width: 50vw;
+}
+
+.search input[type="text"] {
+    width: 30vw;
+}
+
+.search select {
+    width: 20vw;
+}
+
+.top-item h1 {
+    font-family: 'Monteserrat';
+}
+
+.top-item img {
+    height: 40px;
+}
+
+.bottom-header {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.header-links {
+    margin-left: 10vw;
+}
+
+.header-links ul li {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2vw;
+    height: 3px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-header .contact {
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+
+.contact img {
+    height: 30px;
+}
+
+.secure-check {
+    display: flex;
+    padding: 20px;
+    margin-left: 5vw;
+}
+
+.secure-check img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/*
+.number {
+    display: flex;
+    justify-content: center;
+}
+
+.number .number-list {
+    width: 26vw;
+    margin-left: 10vw;
+}
+
+.number-list div {
+    height: 5px;
+    background-color: black; 
+    width: 20vw;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+*/
+
+#deliver {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.delivery {
+    background-color: #f1f1f1;
+    width: 84vw;
+    height: 22vh;
+    border-radius: 5px;
+}
+
+.delivery-add {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.delivery-item {
+    display: flex;
+}
+
+.delivery-item .check {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.check img {
+    margin-top: 5;
+}
+
+.delivery-item h4 {
+    margin-left: 5px;
+}
+
+.delivery-item h4,
+.address p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.underline {
+    width: 84vw;
+    height: 2px;
+    background-color: black;
+    margin-top: 3px;
+}
+
+.address {
+    padding: 10px;
+    margin-left: 3vw;
+    line-height: 2.5;
+}
+
+.change {
+    display: flex;
+}
+
+.change p {
+    margin-left: 5px;
+}
+
+#pay {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.payment {
+    background-color: #f1f1f1;
+    width: 84vw;
+    height: 22vh;
+    border-radius: 5px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.payment-item {
+    display: flex;
+}
+
+.payment-item .check {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.payment-item h4 {
+    margin-left: 5px;
+}
+
+.method {
+    padding: 10px;
+    margin-left: 3vw;
+    line-height: 2.5;
+}
+
+#product-cart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 2vw;
+    margin-top: 30px;
+    width: 80vw;
+    height: 30vh;
+}
+
+.product .color {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.product {
+    line-height: 2.2;
+}
+
+.order {
+    line-height: 2.2;
+}
+
+.item img {
+    width: 10vw;
+}
+
+.qty {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-list h5 {
+    margin-left: 20px;
+}
+
+#coupon {
+    width: 84vw;
+    margin-left: 7.5vw;
+    margin-bottom: 30px;
+}
+
+.coupon-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply {
+    display: flex;
+}
+
+.apply p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.code {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.code input {
+    border: none;
+}
+
+.code img {
+    width: 20px;
+}
+
+button {
+    background-color: #6a1c0b;
+    color: white;
+    height: 5vh;
+    width: 20vw;
+    border: none;
+}
